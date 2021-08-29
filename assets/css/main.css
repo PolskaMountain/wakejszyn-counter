@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap');
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: rgb(34, 34, 34);
+}
+
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgb(17, 17, 17);
+    color: #fff;
+    padding: 2em;
+    border-left: 5px solid #fff;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    padding: 1em;
+    color: rgb(131, 131, 131);
+}
+
+
+.progress-box {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 50%;
+    max-width: 644px;
+}
+
+.progress-text {
+    color: #fff;
+}
+
+
+.progress-bg {
+    background-color: rgb(17, 17, 17);
+}
+
+#progress {
+    position: relative;
+    width: 0%;
+    height: 100%;
+    background-color: #fff;
+    color: rgb(17, 17, 17);
+    float: right;
+    content: "";
+}
